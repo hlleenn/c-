@@ -1,0 +1,155 @@
+.logocatolica {
+    display: flex;
+    height: 150px;
+    justify-content: center;
+}
+nav {
+    background-color: rgb(128, 52, 52);
+}
+
+.menu {
+    list-style-type: none; 
+    padding: 0;
+    margin: 0;
+    display: flex; 
+    justify-content: center;
+    background-color: rgb(128, 52, 52);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.menu li {
+    position: relative; 
+    margin: 0 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none; 
+    padding: 15px; 
+    display: block; 
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+
+.menu a:hover {
+    background-color: rgb(189, 127, 127); 
+}
+
+.submenu {
+    display: none; 
+    position: absolute; 
+    background-color: rgb(128, 52, 52);
+    list-style-type: none; 
+    padding: 0;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    z-index: 1; 
+    font-size: 15px;
+}
+
+.menu li:hover .submenu {
+    display: block; 
+}
+
+.submenu li {
+    margin: 0; 
+}
+
+.submenu a {
+    padding: 10px 15px;
+    white-space: nowrap; 
+}
+
+.submenu a:hover {
+    background-color: rgb(189, 127, 127); 
+}
+
+.card-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 50px;
+    background-color: rgb(128, 52, 52);
+    border-radius: 30px;
+    padding: 20px;
+    width: 70%;
+    text-align: center;
+}
+
+.card h1 {
+    font-size: 38px; 
+    color: rgb(255, 255, 255);
+}
+
+.welcome {
+    font-size: 18px;  
+    color: rgb(210, 191, 191);
+}
+
+.logica-section {
+    width: 70%;
+    margin: 20px;
+}
+.conteudos-section {
+    width: 70%;
+    margin: 20px;
+}
+.logica {
+    background-color: rgb(222, 221, 221);
+    border-radius: 20px;
+    padding: 20px;
+    margin: 10px 0;
+}
+.conteudo {
+    background-color: rgb(222, 221, 221);
+    border-radius: 20px;
+    padding: 20px;
+    margin: 10px 0;
+}
+h2 {
+    color: rgb(128, 52, 52);
+}
+
+h3 {
+    color: rgb(8, 8, 8);
+}
+
+p {
+    color: rgb(5, 5, 5);
+    font-size: 20px;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 20px;
+    color: white;
+    background-color: rgb(128, 52, 52); 
+    border: none;
+    border-radius: 15px; 
+    text-decoration: none; 
+    text-align: center;
+    margin-top: 20px;
+}
+
+.button:hover {
+    background-color: rgb(96, 95, 95);
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(128, 52, 52);
+    color: rgb(255, 255, 255);
+}
+#final {
+    color: aliceblue;
+}

@@ -1,0 +1,119 @@
+.logocatolica {
+    display: flex;
+    height: 150px;
+    justify-content: center;
+}
+
+nav {
+    background-color: rgb(128, 52, 52);
+}
+
+.menu {
+    list-style-type: none; 
+    padding: 0;
+    margin: 0;
+    display: flex; 
+    justify-content: center;
+    background-color: rgb(128, 52, 52);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.menu li {
+    position: relative; 
+    margin: 0 15px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none; 
+    padding: 15px; 
+    display: block; 
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+
+.menu a:hover {
+    background-color: rgb(189, 127, 127); 
+}
+
+.submenu {
+    display: none; 
+    position: absolute; 
+    background-color: rgb(128, 52, 52);
+    list-style-type: none; 
+    padding: 0;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    z-index: 1; 
+    font-size: 15px;
+}
+
+.menu li:hover .submenu {
+    display: block; 
+}
+
+.submenu li {
+    margin: 0; 
+}
+
+.submenu a {
+    padding: 10px 15px;
+    white-space: nowrap; 
+}
+
+.submenu a:hover {
+    background-color: rgb(189, 127, 127); 
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    font-size: 36px;
+    color: rgb(128, 52, 52);
+}
+
+.card {
+    background-color: rgb(222, 221, 221);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.card h2 {
+    font-size: 28px;
+    color: rgb(128, 52, 52);
+    margin-bottom: 10px;
+}
+
+.card p, .card ul {
+    font-size: 18px;
+    line-height: 1.6;
+    color: rgb(33, 33, 33);
+}
+
+code {
+    background-color: rgb(245, 245, 245);
+    padding: 2px 5px;
+    border-radius: 3px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(128, 52, 52);
+    color: rgb(255, 255, 255);
+}
+
+#final {
+    color: aliceblue;
+}
+

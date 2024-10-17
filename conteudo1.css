@@ -1,0 +1,120 @@
+.logocatolica {
+    display: flex;
+    height: 150px;
+    justify-content: center;
+}
+nav {
+    background-color: rgb(128, 52, 52);
+}
+
+.menu {
+    list-style-type: none; 
+    padding: 0;
+    margin: 0;
+    display: flex; 
+    justify-content: center;
+    background-color: rgb(128, 52, 52);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.menu li {
+    position: relative; 
+    margin: 0 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none; 
+    padding: 15px; 
+    display: block; 
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+
+.menu a:hover {
+    background-color: rgb(189, 127, 127); 
+}
+
+.submenu {
+    display: none; 
+    position: absolute; 
+    background-color: rgb(128, 52, 52);
+    list-style-type: none; 
+    padding: 0;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    z-index: 1; 
+    font-size: 15px;
+}
+
+.menu li:hover .submenu {
+    display: block; 
+}
+
+.submenu li {
+    margin: 0; 
+}
+
+.submenu a {
+    padding: 10px 15px;
+    white-space: nowrap; 
+}
+
+.submenu a:hover {
+    background-color: rgb(189, 127, 127); 
+}
+.card-section {
+    width: 70%;
+    margin: 20px auto;
+    text-align: center;
+}
+
+h1 {
+    font-size: 40px; 
+    color: rgb(128, 52, 52);
+}
+
+.content-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.content-card {
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 320px; 
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.content-card:hover {
+    transform: translateY(-5px); 
+    box-shadow: 0 6px 30px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    color: rgb(128, 52, 52);
+    margin-top: 10px;
+    font-size: 26px; 
+}
+
+p {
+    color: rgb(5, 5, 5);
+    font-size: 19px; 
+    margin: 10px 0;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(128, 52, 52);
+    color: rgb(255, 255, 255);
+}
+#final {
+    color: aliceblue;
+}

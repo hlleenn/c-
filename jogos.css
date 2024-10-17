@@ -1,0 +1,147 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: aliceblue;
+    margin: 0;
+}
+
+.logocatolica {
+    display: flex;
+    height: 150px;
+    justify-content: center;
+}
+
+nav {
+    background-color: rgb(128, 52, 52);
+}
+
+.menu {
+    list-style-type: none; 
+    padding: 0;
+    margin: 0;
+    display: flex; 
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.menu li {
+    position: relative; 
+    margin: 0 15px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none; 
+    padding: 15px; 
+    display: block; 
+    font-size: 25px;
+}
+
+.menu a:hover {
+    background-color: rgb(189, 127, 127); 
+}
+
+.submenu {
+    display: none; 
+    position: absolute; 
+    background-color: rgb(128, 52, 52);
+    list-style-type: none; 
+    padding: 0;
+    margin: 0; 
+    font-size: 15px;
+}
+
+.menu li:hover .submenu {
+    display: block; 
+}
+
+.submenu li {
+    margin: 0; 
+}
+
+.submenu a {
+    padding: 10px 15px;
+    white-space: nowrap; 
+}
+
+.submenu a:hover {
+    background-color: rgb(189, 127, 127); 
+}
+
+#jogos2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.jogoscard {
+    background-color: white;
+    border: 2px solid rgb(128, 52, 52);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    width: 200px;
+    margin: 10px;
+    text-align: center;
+    transition: transform 0.2s;
+}
+
+.jogoscard:hover {
+    transform: scale(1.05);
+}
+
+.img {
+    height: 150px;
+    width: 100%;
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+}
+
+h3 {
+    font-size: 18px;
+    margin: 10px 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.jogos {
+    background-color: rgb(128, 52, 52);
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+.jogos:hover {
+    background-color: rgb(189, 127, 127);
+}
+
+
+.div1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+
+.div1 {
+    margin-bottom: 20px; 
+}
+.div2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(128, 52, 52);
+    color: rgb(255, 255, 255);
+}
+#final {
+    color: aliceblue;
+}

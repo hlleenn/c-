@@ -1,0 +1,67 @@
+.logocatolica {
+    display: flex;
+    height: 150px;
+    justify-content: center;
+}
+nav {
+    background-color: rgb(128, 52, 52);
+}
+
+.menu {
+    list-style-type: none; 
+    padding: 0;
+    margin: 0;
+    display: flex; 
+    justify-content: center;
+    background-color: rgb(128, 52, 52);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.menu li {
+    position: relative; 
+    margin: 0 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none; 
+    padding: 15px; 
+    display: block; 
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+
+.menu a:hover {
+    background-color: rgb(189, 127, 127); 
+}
+
+.submenu {
+    display: none; 
+    position: absolute; 
+    background-color: rgb(128, 52, 52);
+    list-style-type: none; 
+    padding: 0;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    z-index: 1; 
+    font-size: 15px;
+}
+
+.menu li:hover .submenu {
+    display: block; 
+}
+
+.submenu li {
+    margin: 0; 
+}
+
+.submenu a {
+    padding: 10px 15px;
+    white-space: nowrap; 
+}
+
+.submenu a:hover {
+    background-color: rgb(189, 127, 127); 
+}
+
