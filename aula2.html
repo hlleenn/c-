@@ -1,38 +1,113 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="aula2.css">
-    <link rel="icon" href="imagesfavicon.png" type="image/png">
-
- <title>Aula 2</title>
+    <link rel="icon" href="images/favicon.png" type="image/png">
+    <title>Aula 2</title>
 </head>
 <body>
-    <main>
-        <div class="logocatolica"> 
-            <img src="logocatolica.png" alt="logocatolica" >
-        </div>
-    </main>
+    <div class="logocatolica"> 
+        <img src="logocatolica.png" alt="Logo Catolica">
+    </div>
+    
     <nav>
         <ul class="menu">
-            <li><a href="http://127.0.0.1:5500/index.html" target="_blank">Home</a></li>
+            <li><a href="index.html" target="_blank">Home</a></li>
             <li>
                 <a href="#aulas">Aulas</a>
                 <ul class="submenu">
-                    <li><a href="http://127.0.0.1:5500/aula1.html" target="_blank" >Aula 1</a></li>
-                    <li><a href="http://127.0.0.1:5500/aula2.html" target="_blank">Aula 2</a></li>
-                    <li><a href="http://127.0.0.1:5500/aula3.html" target="_blank">Aula 3</a></li>
+                    <li><a href="aula1.html" target="_blank">Aula 1</a></li>
+                    <li><a href="aula2.html" target="_blank">Aula 2</a></li>
+                    <li><a href="aula3.html" target="_blank">Aula 3</a></li>
                 </ul>
             </li>
             <li>
-                <a href="http://127.0.0.1:5500/jogos.html" target="_blank">Jogos</a>
+                <a href="#conteudos">Conteúdos</a>
+                <ul class="submenu">
+                    <li><a href="conteudo1.html" target="_blank">Lógica de Programação</a></li>
+                    <li><a href="conteudo2.html" target="_blank">Linguagem de Programação C</a></li>
+                    <li><a href="conteudo3.html" target="_blank">Bibliotecas em C</a></li>
+                </ul>
             </li>
-            <li><a href="#recomendacoes">Recomendações</a></li>
+            <li>
+                <a href="jogos.html" target="_blank">Jogos</a>
+            </li>
+            <li>
+                <a href="#Recomendações">Recomendações de Sites</a>
+                <ul class="submenu">
+                    <li><a href="https://exercism.org/" target="_blank">Exercism</a></li>
+                    <li><a href="https://www.codewars.com/" target="_blank">CoderWars</a></li>
+                    <li><a href="https://www.w3schools.com/" target="_blank">w3schools</a></li>
+                </ul>
+            </li>
         </ul>
     </nav>
+
+    <main>
+        <section class="card-section">
+            <div class="card">
+                <h1>Aula 2: Declaração de Variáveis e Comandos de Entrada e Saída</h1>
+                <p id="p1">Nessa aula você pode ter acesso a várias explicações que irão te auxiliar a aprender mais sobre declaração de variáveis e comandos de entrada e saída em linguagem C.</p>
+            </div>
+
+            <div class="logica-section">
+                <div class="logica">
+                    <h2>Como Funcionam as Declarações de Variáveis?</h2>
+                    <p>Ao criar uma variável, dizemos que ela foi declarada. A declaração de uma variável é essencial na primeira vez que a variável é usada. Para fazer essa declaração, basta escrever o tipo da variável, seguido do nome desejado para ela, e finalizar a instrução com um ponto-e-vírgula (;).</p>
+                </div>
+
+                <div class="logica">
+                    <h2>Comandos de Entrada e Saída</h2>
+                    <p>A entrada de dados possibilita que um programa receba informações de dispositivos de entrada. Para executar o comando de entrada, é essencial incluir a diretiva <code>#include &lt;stdio.h&gt;</code>. O comando <code>scanf()</code> utiliza caracteres de formatação para indicar os tipos de dados dos valores que devem ser inseridos.</p>
+                </div>
+
+            </div>
+
+            <div class="logica-section">
+                <div class="logica">
+                    <h2>Saída de Dados</h2>
+                    <p>Podemos imprimir, além de texto puro, o conteúdo de uma variável utilizando a função <code>printf()</code> da biblioteca <code>stdio.h</code>.</p>
+                </div>
+                
+                <div class="logica">
+                    <h2>Principais Especificadores de Formato</h2>
+                    <ul>
+                        <li><code>%i</code> - inteiro</li>
+                        <li><code>%f</code> - números quebrados</li>
+                        <li><code>%c</code> - caracteres</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="algoritimo">
+                <h5>Declaração de Variáveis</h5>
+            </div><p>Uma variável é um espaço na memória destinado ao armazenamento de um tipo específico de dado. Toda variável precisa ter um tipo e um nome. O tipo de dado de uma variável define o que ela pode armazenar.</p>
+                </div>
+            </div>
+
+            <div class="algoritimo">
+                <h5>OS TIPOS DE DADOS MAIS USADOS SÃO:</h5>
+            </div>
+                    <ul>
+                        <li><code>int</code>: Usado para números inteiros; Exemplo: 1, 2, -10, 412;</li>
+                        <li><code>float</code>: Usado para números reais; Exemplo: 3.5, -9.7, 24.3;</li>
+                        <li><code>char</code>: Usado para caracteres; Exemplo: a, b, c;</li>
+                    </ul>
+                </div>
+                <a href="https://programacaodescomplicada.wordpress.com/2012/05/28/aula-02-declaracao-de-variaveis/" target="_blank" class="button">Exercicios</a>
+            </div>
+        </section>
+    </main>
+    <div class="logocatolica"> 
+        <img src="Captura de tela 2024-10-17 232400.png" alt="logocatolica" >
+    </div>
+</main>
+
+
     <footer>
-        <p id="final"> 2024 CURSO BÁSICO DE LÓGICA E PROGRAMAÇÃO EM C. Todos os direitos reservados.</p>
+        <p id="final">2024 CURSO BÁSICO DE LÓGICA E PROGRAMAÇÃO EM C.</p>
     </footer>
 </body>
-</html> 
+</html>
