@@ -1,134 +1,15 @@
+body {
+   background-color: rgb(253, 253, 253);
+   font-family: 'Times New Roman', Times, serif;
+   margin: 0;
+   padding: 0;
+}
+
 .logocatolica {
-    display: flex;
-    height: 150px;
-    justify-content: center;
-}
-body{
-    background-color: rgb(253, 253, 253);
-}
-.card-section {
-   display:flex;
-   justify-content: center;
-   align-items: center;
-   margin-top: 20px;
-   flex-direction: column;
-}
-.card  {
    display: flex;
+   height: 150px;
    justify-content: center;
-   margin: 50px;
-   background-color:rgb(128, 52, 52);
-   border-radius: 30px;
-   padding: 20px;
-   width: 70%;
-   flex-direction: column-reverse;
-}
-
-.card-content H3 {
-   text-align: center;
-   display: flex;
-   justify-content: center;
-}
-.welcome {
-   font-size: 66px;  
-   color: rgb(210, 191, 191);
-   margin-right: 15px; 
-   font-family: 'Times New Roman', Times, serif;
-}
-
-.title {
-   font-size: 38px; 
-   font-style: italic; 
-   color: rgb(255, 255, 255);
-   font-family: 'Times New Roman', Times, serif;
-}
-P {
-   font-family: 'Times New Roman', Times, serif;
-   text-align: center;
-   font-size: 27px;
-   color: rgb(255, 253, 253);
-}
-.logica-section {
-   margin: 50px;
-   display:flex;
-   align-items: center;
-   flex-direction: row;
-   justify-content: space-between;
-   align-items: flex-start;
-}
-.logica {
-   background-color: rgb(222, 221, 221);
-   border-radius: 30px;
-   padding: 20px;
    margin-bottom: 20px;
-   width: 45%; 
-   margin: 10px;
-   
-}
-#p1{
-   color: rgb(6, 6, 6);;
-}
-.logica-content h2 {
-   text-align: center;
-   display: flex;
-   justify-content: center;
-   color: rgb(128, 52, 52);
-   font-size: 30px;
-}
-.logica-content {
-   padding: 10px;
-}
-h1 {
-   color: rgb(8, 8, 8);
-   font-family: 'Times New Roman', Times, serif;
-   font-size: 30px;
-}
-h4{
-   color:rgb(96, 95, 95);
-   font-family: 'Times New Roman', Times, serif;
-   font-size: 25px;
-}
-
-ul{
-   color: rgb(13, 13, 13);
-   font-family: 'Times New Roman', Times, serif;
-   font-size: 22px;
-}
-
-li{
-   font-size: 22px;
-   font-family: 'Times New Roman', Times, serif;
-   color:  rgb(5, 5, 5);
-}
-.button {
-   display: inline-block;
-   padding: 10px 20px;
-   font-size: 20px;
-   color: white;
-   border: 20px;
-   background-color:  rgb(128, 52, 52); 
-   border: none;
-   border-radius: 15px; 
-   text-decoration: none; 
-   text-align: center;
-   cursor: pointer;
-   font-family: 'Times New Roman', Times, serif;
-}
-
-.button:hover {
-   background-color:rgb(96, 95, 95);
-}
-#code {
-   width: 100%;
-   height: 100%;
-   border-radius: 30px;
-   margin-bottom: 1%;
-}
-
-h5{
-   color: rgb(128, 52, 52);
-   font-family: 'Times New Roman', Times, serif;
-   font-size: 70px;
 }
 
 nav {
@@ -192,14 +73,124 @@ nav {
 .submenu a:hover {
    background-color: rgb(189, 127, 127); 
 }
+
+.card-section {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin-top: 20px;
+}
+
+.card {
+   background-color: rgb(128, 52, 52);
+   border-radius: 30px;
+   padding: 20px;
+   width: 70%;
+   margin: 50px auto;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card-content h3 {
+   text-align: center;
+   display: flex;
+   justify-content: center;
+}
+
+.welcome {
+   font-size: 66px;  
+   color: rgb(210, 191, 191);
+   margin-right: 15px; 
+}
+
+.title {
+   font-size: 38px; 
+   font-style: italic; 
+   color: rgb(255, 255, 255);
+}
+#i {
+   font-size: 25px;
+}
+
+p {
+   text-align: center;
+   font-size: 27px;
+   color: rgb(255, 253, 253);
+}
+
+.logica-section {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   margin: 50px 0;
+}
+
+.logica {
+   background-color: rgb(222, 221, 221);
+   border-radius: 30px;
+   padding: 20px;
+   margin: 10px;
+   width: calc(45% - 20px); 
+   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+#p1 {
+   color: rgb(6, 6, 6);
+}
+
+.logica-content h2 {
+   text-align: center;
+   color: rgb(128, 52, 52);
+   font-size: 30px;
+}
+
+h1 {
+   color: rgb(8, 8, 8);
+   font-size: 30px;
+}
+
+h4 {
+   color: rgb(96, 95, 95);
+   font-size: 25px;
+}
+
+.button {
+   display: inline-block;
+   padding: 10px 20px;
+   font-size: 20px;
+   color: white;
+   background-color: rgb(128, 52, 52); 
+   border: none;
+   border-radius: 15px; 
+   text-decoration: none; 
+   text-align: center;
+   cursor: pointer;
+}
+
+.button:hover {
+   background-color: rgb(96, 95, 95);
+}
+
+#code {
+   width: 100%;
+   border-radius: 30px;
+   margin-bottom: 1%;
+}
+
+h5 {
+   color: rgb(128, 52, 52);
+   font-size: 70px;
+}
+
 .algoritimo-section {
    display: flex;
-   justify-content:center;
+   justify-content: center;
 }
+
 .algo {
    flex: 1;
    padding: 20px;
 }
+
 .algoritmodois-section {
    background-color: #ffffff; 
    padding: 20px;
@@ -208,10 +199,22 @@ nav {
    max-width: 500px; 
    margin: auto; 
 }
+
 #ooi {
    padding-left: 20px; 
    list-style-type: decimal; 
 }
+
 #oi {
    margin: 10px 0; 
+}
+
+footer {
+   text-align: center;
+   padding: 20px;
+   background-color: rgb(128, 52, 52);
+   color: rgb(255, 255, 255);
+}
+#final {
+   color: aliceblue;
 }
